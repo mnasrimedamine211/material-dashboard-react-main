@@ -47,8 +47,18 @@ import SignUp from "layouts/authentication/sign-up";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
+import BookingDashboard from "layouts/bookingDashboard";
+
 
 const routes = [
+  {
+    type: "collapse",
+    name: "booking dashboard",
+    key: "bookingDashboard",
+    icon: <Icon fontSize="small">dashboard</Icon>,
+    route: "/bookingDashboard",
+    component: <BookingDashboard />,
+  },
   {
     type: "collapse",
     name: "Dashboard",
