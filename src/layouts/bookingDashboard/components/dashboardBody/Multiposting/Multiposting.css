@@ -1,0 +1,103 @@
+.Multiposting {
+    background: white;
+    margin: 20px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: calc( 100% - 40px );
+}
+
+.Multiposting .titre {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.6785px;
+    line-height: 24px;
+    color: #5E5873;
+    padding: 20px;
+}
+
+.Multiposting .annoncesButton {
+    background: #62A5FF;
+    border-radius: 5.46625px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    order: 1;
+    flex-grow: 0;
+    min-width: 144px;
+    min-height: 23px;
+    margin: 15px 0px 10px auto;
+    padding: 10.9325px 24.0515px;
+    border: none;
+}
+
+.Multiposting .MultipostingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1px solid gray;
+
+}
+
+.Multiposting .MultipostingContainer .DescriptionWebPost {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.Multiposting .MultipostingContainer .DescriptionWebPost .webName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.3988px;
+    line-height: 26px;
+    color: #5E5873;
+
+}
+
+.Multiposting .MultipostingContainer .DescriptionWebPost .webLink {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.3988px;
+    line-height: 26px;
+    color: #A8A8A8;
+}
+
+.Multiposting .MultipostingContainer .DescriptionWebAnnonces {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Multiposting .MultipostingContainer .DescriptionWebAnnonces .postAnnoncesActive {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.119px;
+    line-height: 20px;
+    color: #5096F4;
+
+}
+
+.Multiposting .MultipostingContainer .DescriptionWebAnnonces .postAnnonces {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.119px;
+    line-height: 20px;
+    color: #A8A8A8;
+}
+
+.Multiposting .MultipostingContainer :last-child() .DescriptionWebPost {
+    padding-left: 5vw;
+}

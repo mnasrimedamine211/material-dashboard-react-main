@@ -1,0 +1,46 @@
+.Annonces {
+    background: white;
+    margin: 20px 0px;
+}
+
+.Annonces .titre {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.6785px;
+    line-height: 24px;
+    color: #5E5873;
+    padding: 20px;
+}
+
+.Annonces .AnnonceContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  
+}
+
+.Annonces .AnnonceContainer .StatusContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Annonces .AnnonceContainer .StatusContainer .nombre {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.6785px;
+    line-height: 24px;
+    color: #5E5873;
+}
+
+.Annonces .AnnonceContainer .StatusContainer .status {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.119px;
+    line-height: 20px;
+    color: #6E6B7B;
+}

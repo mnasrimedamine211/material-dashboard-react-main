@@ -9,7 +9,7 @@ import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 export default function BookingDashboardNav() {
     const theme = createTheme({
         typography: {
-            h6: {
+            h3: {
                 fontFamily: 'Montserrat',
                 fontStyle: "normal",
                 fontWeight: 500,
@@ -40,7 +40,7 @@ export default function BookingDashboardNav() {
             <AppBar position="static">
                 <Toolbar>
                     <ThemeProvider theme={theme}>
-                        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} >
+                        <Typography variant="h3" component="div" sx={{ flexGrow: 1 }} >
                             Dashboard
                         </Typography>
                     </ThemeProvider>
